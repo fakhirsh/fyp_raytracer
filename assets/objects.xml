@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ItemContainer>
     <Config>
-        <Width value="400" />
+        <Width value="800" />
         <Aspect_ratio value="1.77777" />
         <Samples_Per_Pixel value="20" />
         <Max_Depth value="10" />
@@ -96,6 +96,13 @@
             <Rotation   x="0" y="-45" z="0" />
             <Material   name="shinyGold" />
             <File       name="bed.obj" />
+        </Mesh>
+        <Mesh name="chair01">
+            <Position   x="0.5" y="0.0" z="-9" />
+            <Scale      x="1.0" y="1.0" z="1.0" />
+            <Rotation   x="0" y="-45" z="0" />
+            <Material   name="fuzzySilver" />
+            <File       name="chair.obj" />
         </Mesh>
         <Mesh name="cube01">
             <Position   x="2.0" y="0.0" z="0.0" />
